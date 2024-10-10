@@ -12,7 +12,7 @@ endif()
 project ("DriveWiseBackend")
 
 # Add source to this project's executable.
-add_executable (DriveWiseBackend "DriveWiseBackend.cpp"  "DriveWise.h")
+add_executable (DriveWiseBackend "DriveWiseBackend.cpp" "DriveWise.h" "rapidcsv.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET DriveWiseBackend PROPERTY CXX_STANDARD 20)
